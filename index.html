@@ -1,122 +1,81 @@
 
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <meta name="theme-color" content="#fff0f5">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="공주의 색상표">
+
+  <link rel="apple-touch-icon" href="./icon.png">
+  <link rel="icon" type="image/png" href="./icon.png">
 
   <title>공주의 색상표</title>
 
-  <link rel="icon" type="image/jpeg"
-    href="./01F49A2C-B89C-4388-9711-1905362345D0.jpeg">
-
-  <link rel="apple-touch-icon"
-    href="./01F49A2C-B89C-4388-9711-1905362345D0.jpeg">
-
   <style>
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
 
     body {
       margin: 0;
       min-height: 100vh;
+      min-height: 100dvh;
       display: flex;
       align-items: center;
       justify-content: center;
-      background: linear-gradient(
-        180deg,
-        #fff0f5 0%,
-        #ffe5ef 100%
-      );
-      font-family: -apple-system, BlinkMacSystemFont,
-                   "Apple SD Gothic Neo", sans-serif;
+      background: #fff0f5;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
       text-align: center;
     }
 
     main {
       width: 100%;
-      max-width: 400px;
-      padding: 32px 24px;
-    }
-
-    .character {
-      display: block;
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
-      border-radius: 32px;
-      margin: 0 auto 25px;
-      box-shadow: 0 8px 25px rgba(184,77,121,0.15);
+      max-width: 440px;
+      padding: 30px 24px;
     }
 
     h1 {
       color: #b84d79;
-      font-size: 28px;
-      margin: 0 0 14px;
+      font-size: 30px;
+      margin: 0 0 20px;
     }
 
     p {
       color: #896b7b;
-      font-size: 15px;
-      margin: 0 0 32px;
+      font-size: 17px;
+      margin-bottom: 34px;
     }
 
-    .open-button {
+    a {
       display: block;
-      width: 100%;
-      padding: 19px 20px;
+      padding: 22px 20px;
       background: #e678a3;
-      color: #ffffff;
+      color: white;
       border-radius: 20px;
       text-decoration: none;
-      font-size: 18px;
+      font-size: 19px;
       font-weight: bold;
-      box-shadow: 0 6px 18px rgba(230,120,163,0.22);
+      box-shadow: 0 8px 20px #e678a344;
     }
 
-    .open-button:hover {
-      background: #d45f91;
-    }
-
-    .footer {
-      margin-top: 26px;
-      color: #b98a9d;
-      font-size: 12px;
+    footer {
+      margin-top: 30px;
+      color: #bc91a5;
+      font-size: 13px;
     }
   </style>
 </head>
 
 <body>
   <main>
-
-    <img
-      class="character"
-      src="./01F49A2C-B89C-4388-9711-1905362345D0.jpeg"
-      alt="공주의 색상표 캐릭터"
-    >
-
     <h1>👑 공주의 색상표</h1>
-
     <p>🌸 우리만의 색, 나만의 자리. 🌸</p>
 
-    <a
-      class="open-button"
-      href="https://script.google.com/macros/s/AKfycbzqRMLSRcwwVBJ7E4i6dnkxNlquWRGNQxP6JMLVAQZ-RKjTu7uH14OGmK5qEGPt6Z2vgg/exec"
-    >
+    <a href="https://script.google.com/macros/s/AKfycbzqRMLSRcwwVBJ7E4i6dnkxNlquWRGNQxP6JMLVAQZ-RKjTu7uH14OGmK5qEGPt6Z2vgg/exec">
       🎨 색상표 열기 ♡
     </a>
 
-    <div class="footer">
-      Princess Color Room ♡
-    </div>
-
+    <footer>Princess Color Room ♡</footer>
   </main>
 </body>
 </html>
